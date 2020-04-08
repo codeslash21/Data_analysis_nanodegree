@@ -30,3 +30,12 @@ Add `export PATH="/Users/username/anaconda/bin:$PATH"` to your .zsh_config file.
 #### NOTE:
 Conda also automatically installs dependencies for you. For example `scipy` depends on `numpy`, it uses and requires numpy. If you 
 install just `scipy` (`conda install scipy`), Conda will also install `numpy` if it isn't already installed.
+
+### Managing Environment:
+Conda can be used to create environments to isolate your projects. Usefull comand are given below -
+* `conda create -n env_name list of packages` - To create an environment. Here `-n env_name` sets the name of your environment (`-n` for name) and `list of packages` is the list of packages you want installed in the environment. For example, to create an environment named `my_env` and install `numpy` in it, type `conda create -n my_env numpy`.
+* `conda create -n py3 python=3` - To create env with specific python version.
+* `conda activate my_env` - To enter a created environment.
+#### NOTE:
+*  To leave the environment, type co da deactivate (on OSX/Linux). On Windows, use deactivate.
+
