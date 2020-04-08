@@ -37,5 +37,8 @@ Conda can be used to create environments to isolate your projects. Usefull coman
 * `conda create -n py3 python=3` - To create env with specific python version.
 * `conda activate my_env` - To enter a created environment.
 #### NOTE:
-*  To leave the environment, type co da deactivate (on OSX/Linux). On Windows, use deactivate.
+*  To leave the environment, type `conda deactivate` (on OSX/Linux). On Windows, use `deactivate`.
+* `conda activate` and `conda deactivate` only work on conda 4.6 and later versions. For conda versions prior to 4.6, run `activate` or `deactivate` (on Windows), `source activate` or `source deactivate` (on OSX/Linux).
+* Command would you use to create an environment named data installed with Python 3.6, numpy, and pandas -
+`conda create -n data python=3.6 numpy pandas`
 
