@@ -1,2 +1,5 @@
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [LaTeX Tutorial](https://www.latex-tutorial.com/)
+* [pdb](https://docs.python.org/3/library/pdb.html)
+* [magic command](https://ipython.readthedocs.io/en/stable/interactive/magics.html)
+* [nbconvert](https://nbconvert.readthedocs.io/en/latest/usage.html)
