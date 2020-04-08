@@ -36,9 +36,22 @@ Conda can be used to create environments to isolate your projects. Usefull coman
 * `conda create -n env_name list of packages` - To create an environment. Here `-n env_name` sets the name of your environment (`-n` for name) and `list of packages` is the list of packages you want installed in the environment. For example, to create an environment named `my_env` and install `numpy` in it, type `conda create -n my_env numpy`.
 * `conda create -n py3 python=3` - To create env with specific python version.
 * `conda activate my_env` - To enter a created environment.
-#### NOTE:
+* `conda env export > environment.yaml` - To create a [yaml](https://yaml.org/) file that includes all the packages in the environment, so that one can create same environment using the same packages.
+* `conda env create -f environment.yaml` - To create environment from `yaml` file.
+* `conda env list` - To list all available environment. There will be an asterisk next to the environment you're currently in. The default environment, the environment used when you aren't in one, is called `base`.
+* `conda env remove -n env_name` - To remove an environment.
+#### * NOTE:
 *  To leave the environment, type `conda deactivate` (on OSX/Linux). On Windows, use `deactivate`.
 * `conda activate` and `conda deactivate` only work on conda 4.6 and later versions. For conda versions prior to 4.6, run `activate` or `deactivate` (on Windows), `source activate` or `source deactivate` (on OSX/Linux).
 * Command would you use to create an environment named data installed with Python 3.6, numpy, and pandas -
 `conda create -n data python=3.6 numpy pandas`
 
+### Jupyter(Julia, Python, R) Notebook:
+ The notebook is a web application that allows you to combine explanatory text, math equations, code, and visualizations all in one easily sharable document. The central point is the notebook server. You connect to the server through your browser and the notebook is rendered as a web app. Code you write in the web app is sent through the server to the kernel. The kernel runs the code and sends it back to the server, then any output is rendered back in the browser. When you save the notebook, it is written to the server as a JSON file with a `.ipynb` file extension.
+ #### Uses:
+ Notebooks have quickly become an essential tool when working with data. You'll find them being used for data cleaning and exploration, visualization, machine learning, and big data analysis.
+ #### * NOTE:
+ * Notebooks have quickly become an essential tool when working with data. You'll find them being used for data cleaning and exploration, visualization, machine learning, and big data analysis.
+ * Notebooks are also rendered automatically on GitHub. It’s a great feature that lets you easily share your work. [nbviewer](http://nbviewer.jupyter.org/)
+ * Notebooks are a form of literate programming proposed by Donald Knuth in 1984. With literate programming, the documentation is written as a narrative alongside the code instead of sitting off by its own.
+ * One can setup server on remote machine so that one can access notebooks from anywhere. [set up a server](https://jupyter-notebook.readthedocs.io/en/latest/public_server.html)
