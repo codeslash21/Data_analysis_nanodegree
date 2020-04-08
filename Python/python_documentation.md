@@ -40,7 +40,7 @@ Conda can be used to create environments to isolate your projects. Usefull coman
 * `conda env create -f environment.yaml` - To create environment from `yaml` file.
 * `conda env list` - To list all available environment. There will be an asterisk next to the environment you're currently in. The default environment, the environment used when you aren't in one, is called `base`.
 * `conda env remove -n env_name` - To remove an environment.
-#### * NOTE:
+#### NOTE:
 *  To leave the environment, type `conda deactivate` (on OSX/Linux). On Windows, use `deactivate`.
 * `conda activate` and `conda deactivate` only work on conda 4.6 and later versions. For conda versions prior to 4.6, run `activate` or `deactivate` (on Windows), `source activate` or `source deactivate` (on OSX/Linux).
 * Command would you use to create an environment named data installed with Python 3.6, numpy, and pandas -
@@ -50,7 +50,7 @@ Conda can be used to create environments to isolate your projects. Usefull coman
  The notebook is a web application that allows you to combine explanatory text, math equations, code, and visualizations all in one easily sharable document. The central point is the notebook server. You connect to the server through your browser and the notebook is rendered as a web app. Code you write in the web app is sent through the server to the kernel. The kernel runs the code and sends it back to the server, then any output is rendered back in the browser. When you save the notebook, it is written to the server as a JSON file with a `.ipynb` file extension.
  #### Uses:
  Notebooks have quickly become an essential tool when working with data. You'll find them being used for data cleaning and exploration, visualization, machine learning, and big data analysis.
- #### * NOTE:
+ #### NOTE:
  * Notebooks have quickly become an essential tool when working with data. You'll find them being used for data cleaning and exploration, visualization, machine learning, and big data analysis.
  * Notebooks are also rendered automatically on GitHub. It’s a great feature that lets you easily share your work. [nbviewer](http://nbviewer.jupyter.org/)
  * Notebooks are a form of literate programming proposed by Donald Knuth in 1984. With literate programming, the documentation is written as a narrative alongside the code instead of sitting off by its own.
