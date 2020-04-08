@@ -50,13 +50,16 @@ Conda can be used to create environments to isolate your projects. Usefull coman
  The notebook is a web application that allows you to combine explanatory text, math equations, code, and visualizations all in one easily sharable document. The central point is the notebook server. You connect to the server through your browser and the notebook is rendered as a web app. Code you write in the web app is sent through the server to the kernel. The kernel runs the code and sends it back to the server, then any output is rendered back in the browser. When you save the notebook, it is written to the server as a JSON file with a `.ipynb` file extension.
  #### Uses:
  Notebooks have quickly become an essential tool when working with data. You'll find them being used for data cleaning and exploration, visualization, machine learning, and big data analysis.
+ #### Usefull command:
+ * `jupyter nbconvert --to html notebook.ipynb` - To convert from `json` to `html` file.
+ * `jupyter nbconvert notebook.ipynb --to slides` - To create slideshow from`json` notebook file.
+ * `jupyter nbconvert notebook.ipynb --to slides --post serve` - To create slideshow and see immediately.
  #### NOTE:
  * To install Jupyter Notebook use the following command - 
  `conda install jupyter notebook` or `pip install jupyter notebook`.
  * To start notebook enter `jupyter notebook` in terminal or console.
  * By default, the notebook server runs at `http://localhost:8888`. `localhost` means your computer and `8888` is the port the server is communicating on.
  * `conda install nb_conda` - To install Notebook Conda. If then you run the notebook server from a conda environment, you'll also have access to the "Conda" tab shown below. Here you can manage your environments from within Jupyter. You can create new environments, install packages, update packages, export environments and more.
- * Notebooks have quickly become an essential tool when working with data. You'll find them being used for data cleaning and exploration, visualization, machine learning, and big data analysis.
  * Notebooks are also rendered automatically on GitHub. It’s a great feature that lets you easily share your work. [nbviewer](http://nbviewer.jupyter.org/)
  * Notebooks are a form of literate programming proposed by Donald Knuth in 1984. With literate programming, the documentation is written as a narrative alongside the code instead of sitting off by its own.
  * One can setup server on remote machine so that one can access notebooks from anywhere. [set up a server](https://jupyter-notebook.readthedocs.io/en/latest/public_server.html)
