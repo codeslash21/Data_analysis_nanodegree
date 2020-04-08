@@ -51,6 +51,11 @@ Conda can be used to create environments to isolate your projects. Usefull coman
  #### Uses:
  Notebooks have quickly become an essential tool when working with data. You'll find them being used for data cleaning and exploration, visualization, machine learning, and big data analysis.
  #### NOTE:
+ * To install Jupyter Notebook use the following command - 
+ `conda install jupyter notebook` or `pip install jupyter notebook`.
+ * To start notebook enter `jupyter notebook` in terminal or console.
+ * By default, the notebook server runs at `http://localhost:8888`. `localhost` means your computer and `8888` is the port the server is communicating on.
+ * `conda install nb_conda` - To install Notebook Conda. If then you run the notebook server from a conda environment, you'll also have access to the "Conda" tab shown below. Here you can manage your environments from within Jupyter. You can create new environments, install packages, update packages, export environments and more.
  * Notebooks have quickly become an essential tool when working with data. You'll find them being used for data cleaning and exploration, visualization, machine learning, and big data analysis.
  * Notebooks are also rendered automatically on GitHub. It’s a great feature that lets you easily share your work. [nbviewer](http://nbviewer.jupyter.org/)
  * Notebooks are a form of literate programming proposed by Donald Knuth in 1984. With literate programming, the documentation is written as a narrative alongside the code instead of sitting off by its own.
