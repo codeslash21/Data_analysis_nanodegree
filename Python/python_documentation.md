@@ -1,0 +1,32 @@
+### Conda:
+Conda is an open source package management system and environment management system that runs on Windows, macOS and Linux.
+### Anaconda:
+Anaconda is a free and open-source distribution of the Python and R programming languages for scientific computing, that aims to simplify package management and deployment.
+### Package Manager: 
+Package managers are used to install libraries and other software on your computer. `pip` is the default package manager for Python libraries. Conda is similar to pip except that the available packages
+are focused around data science while pip is for general use. However, conda is not Python specific like pip is, it can also install non-Python packages.
+It is a package manager for any software stack. Conda installs precompiled packages. For example, the Anaconda distribution comes with Numpy, Scipy and Scikit-learn compiled with the MKL library,
+speeding up various math operations. 
+### Environment:
+Along with managing packages, Conda is also a virtual environment manager. It's similar to virtualenv and pyenv, other popular environment managers.
+Environments allow you to separate and isolate the packages you are using for different projects.
+### Dependecies:
+You can also export the list of packages in an environment to a file, then include that file with your code. This allows other people to easily load all the dependencies for your code.
+Pip has similar functionality with `pip freeze > requirements.txt`.
+### Packages:
+Some usefull commands are given below -
+
+* `conda upgrade --all` -  running `conda upgrade conda` should not be necessary because --all
+includes the conda package itself, but some users have encountered errors without it.
+If you are seeing the following "conda command not found" and are using ZShell, you have to do the following:
+
+Add `export PATH="/Users/username/anaconda/bin:$PATH"` to your .zsh_config file.
+* `conda install package_name` - To install particular package.
+* `conda install numpy scipy pandas` - To install multiple packages at the same time.
+* `conda install numpy=1.10` - To install package with specific version.
+* `conda remove package_name` - To uninstall package.
+* `conda update package_name` - To update package.
+* `conda search *search_term*` - To search for a particular package. Example `conda search '*beautifulsoup*'`
+#### NOTE:
+Conda also automatically installs dependencies for you. For example `scipy` depends on `numpy`, it uses and requires numpy. If you 
+install just `scipy` (`conda install scipy`), Conda will also install `numpy` if it isn't already installed.
