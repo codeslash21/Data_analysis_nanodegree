@@ -54,3 +54,14 @@ print(a) # [2,3,4]
 print(b) # [1,2,3] 
 ```
 here initially `a` and `b` both pointing to the same array, but later `a` is refered to the new array that is `a + [1,1,1] means [2,3,4]`
+`+=` is `in place` operator means this store the new value to the same place where the old value was stored and `+` is `not in place` operator which store new value to the new place.
+This is also same for `python list()`.
+## Slicing Array:
+```
+import numpy as np
+a = np.array([1,2,3])
+b = a[:2]
+b[0]=10
+print(a) # [10, 2, 3]
+print(b) # [10, 2]
+```
