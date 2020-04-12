@@ -65,3 +65,12 @@ b[0]=10
 print(a) # [10, 2, 3]
 print(b) # [10, 2]
 ```
+
+## 2D Array:
+This is Numpy 2D data structure. This has the following features -
+* More memory efficient than `2D list`. [memory layout](https://docs.scipy.org/doc/numpy/reference/arrays.ndarray.html#internal-memory-layout-of-an-ndarray)
+* Accessing element by `a[2,3]` not by `a[2][3]`(this is for python list).
+* Has usefull functions like `mean()`, `std()`, `max()`, `argmax()`(this is to get position of max) etc.
+* To get a particular row (let 0) `a[0, :]`.
+* To get a particular column (let 3) `a[:, 3]`.
+* `mean()` has a property like `axis`, `axis=0` means it calculates mean along the column and `axis=1` means it calculates mean along the row.
