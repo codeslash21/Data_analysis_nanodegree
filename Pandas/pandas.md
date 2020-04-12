@@ -116,29 +116,44 @@ df = pd.DataFrame({
 3    3     3.0     c
 4    4     4.0     d
 ```
+* accessing element by index
 ```
-# accessing element by index
 df.loc[1] # int 1
             float 1.0
             char a
             
-df.loc[2,'float'] # 
-
-# access element by column name
+df.loc[2,'float'] # 2.0
+```
+* access element by column name
+```
 df['float'] # 1 1.0
               2 2.0
               3 3.0
               4 4.0
-            
-# accessing element by position
+```
+* accessing element by position
+```
 df.iloc[3] # int 4
             float 4.0
             char d
             
 df.iloc[0,2] # a ,this is at row=0 and col=2
 
-# get only values i.e. 2D Array (of Numpy)
+```
+* get only values i.e. 2D Array (of Numpy)
+```
 df.values # array([[1, 1.0, 'a'],
                    [2, 2.0, 'b'],
                    [3, 3.0, 'c'],
                    [4, 4.0, 'd']])
+```
+* get index of max in a row
+```
+df.loc[1].argmax() # to get index of max of row 1(by index)
+```
+* get mean
+```
+df.mean() # this gives mean for every column possible
+df[:, 'float'].mean() # to get mean for 'float' column
+df.values.mean() # this gives mean for all data set
+```
