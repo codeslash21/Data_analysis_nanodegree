@@ -100,3 +100,45 @@ will create a histogram of the data.
 *  Sometimes the Pandas wrapper can be more convenient. For example, you can make a line plot of a series using `data.plot()`. The index of the Series will be used for the x-axis and the values for the y-axis.
 
 
+## DataFrame:
+This is a 2D data structure of Pandas. This is more flexible to use over Numpy 2D Array. Every column of DataFrame can has different datatypes. If we apply `mean()` function over a DataFrame object then it will calculate mean for only those columns which has `int` or `float` type data. Index can be provided for the dataframe.
+```
+import pandas as pd
+df = pd.DataFrame({
+    'int':[1,2,3,4],
+    'float':[1.0,2.0,3.0,4.0],
+    'char':['a','b','c','d']
+},index=[1,2,3,4])
+
+    int   float   char
+1    1     1.0     a
+2    2     2.0     b
+3    3     3.0     c
+4    4     4.0     d
+```
+```
+# accessing element by index
+df.loc[1] # int 1
+            float 1.0
+            char a
+            
+df.loc[2,'float'] # 
+
+# access element by column name
+df['float'] # 1 1.0
+              2 2.0
+              3 3.0
+              4 4.0
+            
+# accessing element by position
+df.iloc[3] # int 4
+            float 4.0
+            char d
+            
+df.iloc[0,2] # a ,this is at row=0 and col=2
+
+# get only values i.e. 2D Array (of Numpy)
+df.values # array([[1, 1.0, 'a'],
+                   [2, 2.0, 'b'],
+                   [3, 3.0, 'c'],
+                   [4, 4.0, 'd']])
