@@ -157,3 +157,18 @@ df.mean() # this gives mean for every column possible
 df[:, 'float'].mean() # to get mean for 'float' column
 df.values.mean() # this gives mean for all data set
 ```
+## NOTE:
+* To fill the `NaN` there is `fillna()` function to apply with the value to place instead of null.
+```
+mean = df['col_name'].mean()
+df['col_name'] = df['col_name']fillna(mean)
+```
+* To find the duplicates in the dataset we have required function -
+```
+df.duplicated() # this returns true/false for every row and return true for the row where duplicate occures excluding the first occurence
+
+sum(df.duplicated()) # by this one can detect the number of duplicacy in the dataset(as True=1 and False=0).
+
+df.drop_duplicates(inplace=True) # this remove the rows where True comes as duplicacy.
+```
+* `df['datetime'] = pd.to_datetime(df['datetime'])` to chage datatype to datetime.
