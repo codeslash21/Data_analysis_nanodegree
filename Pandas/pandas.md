@@ -157,6 +157,19 @@ df.mean() # this gives mean for every column possible
 df[:, 'float'].mean() # to get mean for 'float' column
 df.values.mean() # this gives mean for all data set
 ```
+
+## Plotting with DataFrame:
+DtaFrame is a simple wrapper around matplotlib functions.
+`% matplotlib inline` - this is an important line to include when plotting in Jupyter Notebook.
+* `df.hist()` to creat `Histogram` for every column.
+* `df.hist(figsize=(8,8));` to increase size of diagrams and `;` is for removing unwanted output.
+* `df['col_name'].hist();` To create histogram for a particular column.
+* `df['col_name'].plot(kind='hist');` to create histogram for a particular column.
+* `df['col_name'].value_counts()` To count occurrence of each unique value.
+* `df['col_name'].value_counts().plot('bar');` To plot bar diagram for a particular column.
+* `df['col_name'].value_counts().plot('pie', figsize=(8,8));` To plot pie diagram for a particular column.
+* `df.plot(x='col_name_1', y='col_name_2', kind='scatter');` To get scatter plot with two columns to get correlation.
+
 ## NOTE:
 * To fill the `NaN` there is `fillna()` function to apply with the value to place instead of null.
 ```
