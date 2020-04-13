@@ -16,3 +16,4 @@ import pandas as pd
 df = pd.read_csv('student_scores.csv')
 ```
 There are various optins for `read_csv()` like `sep=":"` or `header=none` or `header=2` etc.
+`read_csv()` loads the data into the dataframe.
