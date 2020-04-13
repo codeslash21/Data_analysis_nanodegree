@@ -8,6 +8,7 @@ df # its a DataFrame object
 * `df + s` is similar to `df.add(s, axis='columns')`.
 * `df.apply()` To apply not built-in functions, but it will apply function to the entire column at a time and every column of the dataframe. This is useful for get how much an element is away from the sd for a particular column.
 * `df.applymap()` to apply not built-in functions. This apply function to every element of the dataframe.
+* `df['col_name'].describe()` To describe a particular column and it returns min, max, mean, std, and some others.
 * `df.div(s, axis='index'/'columns')` To divide the dataframe index/column wise.
 * `df.duplicated()` To get which row has duplicate value
 * `sum(df.duplicated())` To get total number of duplicated row
