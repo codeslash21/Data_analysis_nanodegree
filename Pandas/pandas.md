@@ -186,4 +186,7 @@ df.drop_duplicates(inplace=True) # this remove the rows where True comes as dupl
 ```
 * `df['datetime'] = pd.to_datetime(df['datetime'])` to chage datatype to datetime.
 * By default, Pandas' std() function computes the standard deviation using Bessel's correction. Calling std(ddof=0) ensures that Bessel's correction will not be used. [Bessel's correction](https://en.wikipedia.org/wiki/Bessel%27s_correction)
-*
+* By default, numpy calculates a population standard deviation, with `ddof = 0`. On the other hand, pandas calculates a sample standard deviation, with `ddof = 1`.
+
+## Panel:
+`Panel` is Pnadas 3D data structure similar to DataFrame or Series. [Documentation](https://pandas.pydata.org/pandas-docs/stable/getting_started/dsintro.html)
