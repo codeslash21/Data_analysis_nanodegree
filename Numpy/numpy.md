@@ -74,3 +74,6 @@ This is Numpy 2D data structure. This has the following features -
 * To get a particular row (let 0) `a[0, :]`.
 * To get a particular column (let 3) `a[:, 3]`.
 * `mean()` has a property like `axis`, `axis=0` means it calculates mean along the column and `axis=1` means it calculates mean along the row.
+
+## 3D Array:
+This is Numpy 3D data structure. This can be created from list of lists of lists.
