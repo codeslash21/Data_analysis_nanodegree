@@ -185,3 +185,5 @@ sum(df.duplicated()) # by this one can detect the number of duplicacy in the dat
 df.drop_duplicates(inplace=True) # this remove the rows where True comes as duplicacy.
 ```
 * `df['datetime'] = pd.to_datetime(df['datetime'])` to chage datatype to datetime.
+* By default, Pandas' std() function computes the standard deviation using Bessel's correction. Calling std(ddof=0) ensures that Bessel's correction will not be used. [Bessel's correction](https://en.wikipedia.org/wiki/Bessel%27s_correction)
+*
