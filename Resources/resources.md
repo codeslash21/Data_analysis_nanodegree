@@ -5,5 +5,6 @@
 * [magic command](https://ipython.readthedocs.io/en/stable/interactive/magics.html)
 * [nbconvert](https://nbconvert.readthedocs.io/en/latest/usage.html)
 * [pdb](https://docs.python.org/3/library/pdb.html)
+* [Pandas Merge](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html)
 
 
