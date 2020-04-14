@@ -11,7 +11,9 @@ df # its a DataFrame object
 * `df['col_name'].describe()` To describe a particular column and it returns min, max, mean, std, and some others.
 * `df.div(s, axis='index'/'columns')` To divide the dataframe index/column wise.
 * `df.duplicated()` To get which row has duplicate value
-* `sum(df.duplicated())` To get total number of duplicated row
+* `sum(df.duplicated())` To get total number of duplicated row.
+* `df.isna()` It returns True in place of `Null` and otherwise False.
+* `df.isna().sum()` Returns column wise total number of null values.
 * `df['col_name'].plot(kind='hist');` To create histogram for a particular column.
 * `df.plot(x='col_name_1', y='col_name_2', kind='scatter');` To get scatter plot with two columns to get correlation.
 * `df['col_name'].value_counts()` To count occurrence of each unique value.
