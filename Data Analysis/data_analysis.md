@@ -24,3 +24,4 @@ There are various optins for `read_csv()` like `sep=":"` or `header=none` or `he
 %pylab inline # To plot in the notebook
 import seaborn as sns
 ```
+`sns.set_style()` To set style for the background.
