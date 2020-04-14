@@ -28,6 +28,7 @@ There is a argument called is_index and set `is_index=False` for not to get col_
 * `df.info()` To get brief information about every column.
 * `df.mean(axis='columns'/'index')` To calculate mean by index/columns.
 * `df.merge(df1, on = [lists_of_col_names], how='inner/left/right')` To merge two dataframes.
+* `df.query('query_string')` To filter out dataframe based on query_text.
 * `df.shift(period=(int))` To shift by given periods. [shift()](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.shift.html)
 * `df.std(axis='columns'/'index')` To calculate std by index or columns.
 *  `s.sort_values()` To sort pandas series.
