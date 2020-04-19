@@ -37,3 +37,8 @@ There are three measures of center:
    
 * **Analyzing Categorical Data:**
 Analyzing categorical data has fewer parts to consider. Categorical data is analyzed usually be looking at the counts or proportion of individuals that fall into each group. For example if we were looking at the breeds of the dogs, we would care about how many dogs are of each breed, or what proportion of dogs are of each breed type.
+
+
+### NOTE:
+* Notation is a common language used to communicate mathematical ideas. Think of notation as a universal language used by academic and industry professionals to convey mathematical ideas.
+* Capital Letter is used for random varibles and small letter is used for referencing random variables' values.
