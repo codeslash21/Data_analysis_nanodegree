@@ -30,6 +30,8 @@ There are three measures of center:
    - Median
    - Mode
    
-   
-* **Analyzing Categorical Data**
-Though not discussed in the video, analyzing categorical data has fewer parts to consider. Categorical data is analyzed usually be looking at the counts or proportion of individuals that fall into each group. For example if we were looking at the breeds of the dogs, we would care about how many dogs are of each breed, or what proportion of dogs are of each breed type.
+   > `MEAN` is the average of the values in the dataset.
+   > `MEDIAN` is the middle most value of the sorted dataset.
+   > `MODE` is the value with higher frequency in the dataset. If all the values in the dataset share the same frequency then there is no mode. On the other hand if two or more values have the highest frequency then there are many modes.
+* **Analyzing Categorical Data: **
+Analyzing categorical data has fewer parts to consider. Categorical data is analyzed usually be looking at the counts or proportion of individuals that fall into each group. For example if we were looking at the breeds of the dogs, we would care about how many dogs are of each breed, or what proportion of dogs are of each breed type.
