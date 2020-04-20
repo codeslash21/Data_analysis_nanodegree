@@ -35,6 +35,15 @@ There are three measures of center:
    `MEDIAN` is the middle most value of the sorted dataset.
    `MODE` is the value with higher frequency in the dataset. If all the values in the dataset share the same frequency then there is no mode. On the other hand if two or more values have the highest frequency then there are many modes.
    
+   
+ * **Measures of Spread** are used to provide us an idea of how spread out our data are from one another. Common measures of spread include:
+
+    - Range
+    - Interquartile Range (IQR)
+    - Standard Deviation
+    - Variance 
+    > `Range` is the value of (max-min) of the dataset.
+    `IQR` or Inter Quartile Range is (Q3 -Q1). Q2 is the median of the dataset.
 * **Analyzing Categorical Data:**
 Analyzing categorical data has fewer parts to consider. Categorical data is analyzed usually be looking at the counts or proportion of individuals that fall into each group. For example if we were looking at the breeds of the dogs, we would care about how many dogs are of each breed, or what proportion of dogs are of each breed type.
 
@@ -42,3 +51,5 @@ Analyzing categorical data has fewer parts to consider. Categorical data is anal
 ### NOTE:
 * Notation is a common language used to communicate mathematical ideas. Think of notation as a universal language used by academic and industry professionals to convey mathematical ideas.
 * Capital Letter is used for random varibles and small letter is used for referencing random variables' values.
+* The variance is the average squared difference of each observation from the mean.
+* 
