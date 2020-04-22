@@ -52,4 +52,5 @@ Analyzing categorical data has fewer parts to consider. Categorical data is anal
 * Notation is a common language used to communicate mathematical ideas. Think of notation as a universal language used by academic and industry professionals to convey mathematical ideas.
 * Capital Letter is used for random varibles and small letter is used for referencing random variables' values.
 * The variance is the average squared difference of each observation from the mean.
-* 
+* `sd` or `var` is used for comparing which dataset spread out more. We cant measure center by these. If `sd1` > `sd2` - this does not imply that `d1` has more range than `d2`.
+* Standard deviation of two datasets may be same despite having different maximums.
