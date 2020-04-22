@@ -8,6 +8,7 @@
 * [nbconvert](https://nbconvert.readthedocs.io/en/latest/usage.html)
 * [pdb](https://docs.python.org/3/library/pdb.html)
 * [Pandas Merge](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html)
+* [Standard Deviation](https://video.udacity-data.com/topher/2019/November/5dc4adcb_intuition-intuitive-explanation-for-dividing-by-n-1-when-calculating-standard-deviation-cross-validated/intuition-intuitive-explanation-for-dividing-by-n-1-when-calculating-standard-deviation-cross-validated.htm)
 
 
 # Project resources:
