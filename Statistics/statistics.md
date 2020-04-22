@@ -83,6 +83,9 @@ Below are my guidelines for working with any column (random variable) in your da
 >4. If you have skewed data or outliers, use the five number summary to summarize your data and report the outliers. Five numbers are min, max, Q1, Q2, Q3.
 Outliers have a larger influence on measures like the mean than on measures like the median. We have to work on outliers on a situation on a situation basis.
 
+### Simpson's Paradox:
+Simpson's paradox, which goes by several names, is a phenomenon in probability and statistics, in which a trend appears in several different groups of data but disappears or reverses when these groups are combined.
+
 ### NOTE:
 * Notation is a common language used to communicate mathematical ideas. Think of notation as a universal language used by academic and industry professionals to convey mathematical ideas.
 * Capital Letter is used for random varibles and small letter is used for referencing random variables' values.
