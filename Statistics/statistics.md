@@ -1,4 +1,12 @@
 # Statistics
+There are two types of statistics. These are - 
+* `Descriptive statistics` is about describing our collected data.
+* `Inferential Statistics` is about using our collected data to draw conclusions to a larger population.
+**Some terms:**
+> `Population` - our entire group of interest.
+> `Parameter` - numeric summary about a population
+> `Sample` - subset of the population
+> `Statistic` numeric summary about a sample
 
 ## Datatypes:
 There are two types of data, Quantitative and Categorical.
@@ -43,7 +51,7 @@ There are three measures of center:
     - Standard Deviation
     - Variance 
     > `Range` is the value of (max-min) of the dataset.
-    `IQR` or Inter Quartile Range is (Q3 -Q1). Q2 is the median of the dataset.
+    > `IQR` or Inter Quartile Range is (Q3 -Q1). Q2 is the median of the dataset.
     
  * **The Shape of the data**:
  Plotting `Histogram` one can visualize the shape of the quantitative data.
@@ -56,6 +64,7 @@ Histogram is the most popular visual for quantitative data. From a histogram we 
 > 1. Right-skewed - In which histogram shorter bin in the right side and longer bin in the left side.
 > 2. Left-skewed - In which histogram shorter bin in the left side and longer bin in right side.
 > 3. Symmetric (frequently normally distributed) - In which histogram right side mirrors the left side.
+
 **NOTE:**
 * For `Right-skewed` distribution `Mean>Mode`.
 * For `Left-skewed` distribution `Mean<Mode`.
@@ -72,6 +81,7 @@ Below are my guidelines for working with any column (random variable) in your da
 >2. Handle outliers accordingly via the methods above.
 >3. If no outliers and your data follow a normal distribution - use the mean and standard deviation to describe your dataset, and report that the data are normally distributed.
 >4. If you have skewed data or outliers, use the five number summary to summarize your data and report the outliers. Five numbers are min, max, Q1, Q2, Q3.
+Outliers have a larger influence on measures like the mean than on measures like the median. We have to work on outliers on a situation on a situation basis.
 
 ### NOTE:
 * Notation is a common language used to communicate mathematical ideas. Think of notation as a universal language used by academic and industry professionals to convey mathematical ideas.
