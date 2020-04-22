@@ -44,9 +44,34 @@ There are three measures of center:
     - Variance 
     > `Range` is the value of (max-min) of the dataset.
     `IQR` or Inter Quartile Range is (Q3 -Q1). Q2 is the median of the dataset.
-* **Analyzing Categorical Data:**
+    
+ * **The Shape of the data**:
+ Plotting `Histogram` one can visualize the shape of the quantitative data.
+ 
+### Analyzing Categorical Data:
 Analyzing categorical data has fewer parts to consider. Categorical data is analyzed usually be looking at the counts or proportion of individuals that fall into each group. For example if we were looking at the breeds of the dogs, we would care about how many dogs are of each breed, or what proportion of dogs are of each breed type.
 
+### Histogram:
+Histogram is the most popular visual for quantitative data. From a histogram we can quickly identify the shape of our data. The distribution of our data is frequently associated with one of the three shapes:
+> 1. Right-skewed - In which histogram shorter bin in the right side and longer bin in the left side.
+> 2. Left-skewed - In which histogram shorter bin in the left side and longer bin in right side.
+> 3. Symmetric (frequently normally distributed) - In which histogram right side mirrors the left side.
+**NOTE:**
+* For `Right-skewed` distribution `Mean>Mode`.
+* For `Left-skewed` distribution `Mean<Mode`.
+* For symmetric distribution `Mean=Median=Mode`. Example - bell curve.
+* Histogram is used for depicting quantative data not the categorical data.
+* If `Mean=Median` then that always not be Normal distribution that can be symmetric distribution.
+
+### Box Plot:
+In descriptive statistics, a box plot or boxplot is a method for graphically depicting groups of numerical data through their quartiles. Box plots may also have lines extending from the boxes indicating variability outside the upper and lower quartiles, hence the terms box-and-whisker plot and box-and-whisker diagram.
+*  The measures of center and spread we can determine from a Box Plot.
+### Outliers:
+Below are my guidelines for working with any column (random variable) in your dataset.
+>1. Plot your data to identify if you have outliers.
+>2. Handle outliers accordingly via the methods above.
+>3. If no outliers and your data follow a normal distribution - use the mean and standard deviation to describe your dataset, and report that the data are normally distributed.
+>4. If you have skewed data or outliers, use the five number summary to summarize your data and report the outliers. Five numbers are min, max, Q1, Q2, Q3.
 
 ### NOTE:
 * Notation is a common language used to communicate mathematical ideas. Think of notation as a universal language used by academic and industry professionals to convey mathematical ideas.
