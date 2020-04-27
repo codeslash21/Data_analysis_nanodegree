@@ -2,10 +2,15 @@
 There are two types of statistics. These are - 
 * `Descriptive statistics` is about describing our collected data.
 * `Inferential Statistics` is about using our collected data to draw conclusions to a larger population.
+
 **Some terms:**
+
 > `Population` - our entire group of interest.
+
 > `Parameter` - numeric summary about a population
+
 > `Sample` - subset of the population
+
 > `Statistic` numeric summary about a sample
 
 ## Datatypes:
