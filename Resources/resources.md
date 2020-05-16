@@ -22,6 +22,7 @@
 - [More About Unicode in Python 2 and 3](https://lucumr.pocoo.org/2014/1/5/unicode-in-2-and-3/)
 * [nbconvert](https://nbconvert.readthedocs.io/en/latest/usage.html)
 * [Normal Quantile Plot](https://data.library.virginia.edu/understanding-q-q-plots/), [Kolmogorov-Smirnov test](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test)
+- [OCR (Optical Character Recognition)](https://www.abbyy.com/en-ca/finereader/what-is-ocr/)
 - [pandas vs. SQL](https://www.reddit.com/r/Python/comments/1tqjt4/why_do_you_use_pandas_instead_of_sql/)
 * [pdb](https://docs.python.org/3/library/pdb.html)
 * [Pandas Merge](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html)
