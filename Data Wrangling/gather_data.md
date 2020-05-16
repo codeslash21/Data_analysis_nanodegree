@@ -14,3 +14,15 @@ HTTP is a request/response protocol:
 </br>
 
 <img src="../Images/client-server.png" />
+
+
+### Create Image:
+To create an Image from binary data returned by a request -
+
+```
+import requests
+from PIL import Image
+from io import BytesIO
+r = requests.get(url)
+i = Image.open(BytesIO(r.content))
+```
