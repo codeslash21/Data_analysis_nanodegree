@@ -1,7 +1,17 @@
 
 # Gathering Data:
 
+Gathering is the first step in the data wrangling process:
 
+- Gather
+- Assess
+- Clean
+
+Depending on the source of your data, and what format it's in, the steps in gathering data vary.
+
+The high-level gathering process:
+- Obtaining data (downloading a file from the internet, scraping a web page, querying an API, etc.)
+- Importing that data into your programming environment (e.g. Jupyter Notebook)
 ### HTTP (Hypertext Transfer Protocol):
 
 HTTP, the Hypertext Transfer Protocol, is the language that web browsers (like Chrome or Safari) and web servers (basically computers where the contents of a website are stored) speak to each other. Every time you open a web page, or download a file, or watch a video, it's HTTP that makes it possible.
