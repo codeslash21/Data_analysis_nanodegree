@@ -57,3 +57,44 @@ The programmatic data cleaning process:
 
 - **Testing** means testing our dataset, often using code, to make sure our cleaning operations worked.
 
+
+## Wrangle VS EDA:
+
+`EDA`: an analysis approach that focuses on identifying general patterns in the data, and identifying outliers and features of the data that might not have been anticipated.
+
+- **Data wrangling** is about gathering the right pieces of data, assessing your data's quality and structure, then modifying your data to make it clean. But the assessments you make and convert to cleaning operations won't make your analysis, viz, or model better, though. The goal is to just make them possible, i.e., functional.
+
+- **EDA** is about exploring your data to later augment it to maximize the potential of our analyses, visualizations, and models. When exploring, simple visualizations are often used to summarize your data's main characteristics. From there you can do things like remove outliers and create new and more descriptive features from existing data, also known as feature engineering. Or detect and remove outliers so your model's fit is better.
+
+## Wrangle VS ETL:
+
+[Documentation](https://tdwi.org/articles/2017/02/10/data-wrangling-and-etl-differences.aspx)
+
+ETL(Extract Transform Load) differs from data wrangling in three main ways:
+
+- The users are different
+- The data is different
+- The use cases are different
+
+
+## Flat File:
+
+Flat files contain tabular data in plain text format with one data record per line and each record or line having one or more fields. These fields are separated by delimiters, like commas, tabs, or colons.
+
+**Advantages:**
+Advantages of flat files include:
+
+  - They're text files and therefore human readable.
+  - Lightweight.
+  - Simple to understand.
+  - Software that can read/write text files is ubiquitous, like text editors.
+  - Great for small datasets.
+
+**Disadvantages:**
+Disadvantages of flat files, in comparison to relational databases, for example, include:
+
+  - Lack of standards.
+  - Data redundancy.
+  - Sharing data can be cumbersome.
+  - Not great for large datasets (see "When does small become large?" in the Cornell link in More Information).
+
