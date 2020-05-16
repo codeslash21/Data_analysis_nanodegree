@@ -37,6 +37,7 @@ Untidy data is commonly referred to as "messy" data. Messy data has issues with 
 
 </br>
 
+
 ![](../Images/oblstsm-imgur.gif)
 
 ### Types of Assessment:
