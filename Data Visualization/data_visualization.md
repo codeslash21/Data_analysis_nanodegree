@@ -57,6 +57,38 @@ Chart junk refers to all visual elements in charts and graphs that are not neces
 - Shading or 3d components
 - Ornamented chart axes
 
+## Encoding:
+We typically try to use position on the x- and y- axes to encode, or depict the value of variables. If we have more than two variables, however, we have to start considering other visual encodings for the additional variables.
+
+In general, `color` and `shape` are best for categorical variables, while the `size` of marker can assist in adding additional quantitative data.
+
+
+## Bar Charts:
+A bar chart is used to depict the distribution of a categorical variable. In a bar chart, each level of the categorical variable is depicted with a bar, whose height indicates the frequency of data points that take on that level. A basic bar chart of frequencies can be created through the use of seaborn's countplot function:
+```
+base_color = sb.color_palette()[0]
+sb.countplot(data = df, x = 'cat_var', color = base_color)
+```
+
+## Pie Charts:
+A pie chart is a common univariate plot type that is used to depict relative frequencies for levels of a categorical variable. Frequencies in a pie chart are depicted as wedges drawn on a circle: the larger the angle or area, the more common the categorical value taken. You can create a pie chart with matplotlib's `pie` function. 
+```
+# code for the pie chart seen above
+sorted_counts = df['cat_var'].value_counts()
+plt.pie(sorted_counts, labels = sorted_counts.index, startangle = 90,
+        counterclock = False);
+plt.axis('square')
+```
+** donut plot:** A sister plot to the pie chart is the donut plot. It's just like a pie chart, except that there's a hole in the center of the plot.
+```
+sorted_counts = df['cat_var'].value_counts()
+plt.pie(sorted_counts, labels = sorted_counts.index, startangle = 90,
+        counterclock = False, wedgeprops = {'width' : 0.4});
+plt.axis('square')
+```
+
+
+
 ### NOTE:
 - Visuals can be bad if they:
   - Don't convey the desired message.
@@ -65,6 +97,7 @@ Chart junk refers to all visual elements in charts and graphs that are not neces
 - **DataInk Ratio:**
 The data-ink ratio, credited to Edward Tufte, is directly related to the idea of chart junk. The more of the ink in your visual that is related to conveying the message in the data, the better.
 Limiting chart junk increases the data-ink ratio.
+`Data-Ink Ratio = (amount of ink used to describe the data) / (amount of ink used to describe everything else)`
 
 - **Lie factor** depicts the degree to which a visualization distorts or misrepresents the data values being plotted. It is calculated in the following way:
 lie factor= (Δvisual/visual _start) / (Δdata/data _start)
