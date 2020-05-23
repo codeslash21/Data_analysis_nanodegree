@@ -1,6 +1,8 @@
 ## Some Important Resources
 
 
+- [% Tips on designing colorblind-friendly visualization](https://www.tableau.com/about/blog/2016/4/examining-data-viz-rules-dont-use-red-green-together-53463)
+
 - [API Data Exchange: XML vs. JSON](https://www.tibco.com/blog/2014/01/23/api-data-exchange-xml-vs-json/)
 - [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)
 - [Beautiful Soup and Unicode Problems](https://stackoverflow.com/questions/19508442/beautiful-soup-and-unicode-problems)
@@ -12,6 +14,8 @@
 - [Fully Pythonic Way to Read a File](https://stackoverflow.com/questions/8009882/how-to-read-a-large-file-line-by-line/8010133#8010133)
 - [glob](https://docs.python.org/3/library/glob.html)
 - [glob Programming](https://en.wikipedia.org/wiki/Glob_(programming))
+- [How to spot visualization lies](https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/)
+
 * [iPython](https://ipython.readthedocs.io/en/stable/)
 * [iPython and Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/architecture/how_jupyter_ipython_work.html)
 - [Iterables and Iterators](https://stackoverflow.com/questions/16994552/is-file-object-in-python-an-iterable/16994568#16994568)
