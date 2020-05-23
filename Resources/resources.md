@@ -3,6 +3,8 @@
 
 - [% Tips on designing colorblind-friendly visualization](https://www.tableau.com/about/blog/2016/4/examining-data-viz-rules-dont-use-red-green-together-53463)
 
+- [An Illustrated Tour of the Pie Chart Study Results ](https://eagereyes.org/blog/2016/an-illustrated-tour-of-the-pie-chart-study-results)
+
 - [API Data Exchange: XML vs. JSON](https://www.tibco.com/blog/2014/01/23/api-data-exchange-xml-vs-json/)
 - [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/)
 - [Beautiful Soup and Unicode Problems](https://stackoverflow.com/questions/19508442/beautiful-soup-and-unicode-problems)
@@ -23,6 +25,11 @@
 * [LaTeX Tutorial](https://www.latex-tutorial.com/)
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [magic command](https://ipython.readthedocs.io/en/stable/interactive/magics.html)
+
+- [Matplotlib Axes](https://matplotlib.org/api/axes_api.html)
+
+- [Matplotlib Figure](https://matplotlib.org/api/_as_gen/matplotlib.figure.Figure.html)
+
 - [More About Unicode in Python 2 and 3](https://lucumr.pocoo.org/2014/1/5/unicode-in-2-and-3/)
 * [nbconvert](https://nbconvert.readthedocs.io/en/latest/usage.html)
 * [Normal Quantile Plot](https://data.library.virginia.edu/understanding-q-q-plots/), [Kolmogorov-Smirnov test](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test)
@@ -40,8 +47,12 @@
 - [Tidy data in Python](http://www.jeannicholashould.com/tidy-data-in-python.html)
 - [Towards Data Science: Ethics in Web Scraping](https://towardsdatascience.com/ethics-in-web-scraping-b96b18136f01)
 - [The difference between UTF-8 and Unicode](http://www.differencebetween.net/technology/difference-between-unicode-and-utf-8/)
+
+- [Understanding Pie Charts](https://eagereyes.org/pie-charts)
+
 - [Unicode and Character sets](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
-- 
+
+- [What to Consider when Creating a Pie Chart](https://academy.datawrapper.de/article/127-what-to-consider-when-creating-a-pie-chart)
 
 
 
