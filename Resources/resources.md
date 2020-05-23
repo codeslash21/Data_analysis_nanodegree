@@ -1,7 +1,7 @@
 ## Some Important Resources
 
 
-- [% Tips on designing colorblind-friendly visualization](https://www.tableau.com/about/blog/2016/4/examining-data-viz-rules-dont-use-red-green-together-53463)
+- [5 Tips on designing colorblind-friendly visualization](https://www.tableau.com/about/blog/2016/4/examining-data-viz-rules-dont-use-red-green-together-53463)
 
 - [An Illustrated Tour of the Pie Chart Study Results ](https://eagereyes.org/blog/2016/an-illustrated-tour-of-the-pie-chart-study-results)
 
@@ -22,6 +22,11 @@
 * [iPython and Jupyter Notebook](https://jupyter.readthedocs.io/en/latest/architecture/how_jupyter_ipython_work.html)
 - [Iterables and Iterators](https://stackoverflow.com/questions/16994552/is-file-object-in-python-an-iterable/16994568#16994568)
 - [JSON](https://stackabuse.com/reading-and-writing-json-to-a-file-in-python/)
+
+- [kernel density estimation (KDE)](https://en.wikipedia.org/wiki/Kernel_density_estimation)
+
+- [kdeplot](https://seaborn.pydata.org/generated/seaborn.kdeplot.html)
+
 * [LaTeX Tutorial](https://www.latex-tutorial.com/)
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [magic command](https://ipython.readthedocs.io/en/stable/interactive/magics.html)
