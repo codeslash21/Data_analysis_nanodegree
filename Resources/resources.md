@@ -46,6 +46,9 @@
 - [Python Wordcloud](https://amueller.github.io/word_cloud/)
 - [Python Zipfile](https://docs.python.org/3/library/zipfile.html#zipfile-objects) 
 - [Relational DB and Flat File](https://www.cac.cornell.edu/education/Training/DataAnalysis/RelationalDatabases.pdf)
+
+- [Reveal.js](https://revealjs.com/#/)
+
 - [SQLAlchemy](https://www.sqlalchemy.org/)
 * [Standard Deviation](https://video.udacity-data.com/topher/2019/November/5dc4adcb_intuition-intuitive-explanation-for-dividing-by-n-1-when-calculating-standard-deviation-cross-validated/intuition-intuitive-explanation-for-dividing-by-n-1-when-calculating-standard-deviation-cross-validated.htm)
 - [String VS Byte String](https://stackoverflow.com/questions/6224052/what-is-the-difference-between-a-string-and-a-byte-string)
