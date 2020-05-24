@@ -54,6 +54,7 @@ Conda can be used to create environments to isolate your projects. Usefull coman
  * `jupyter nbconvert --to html notebook.ipynb` - To convert from `json` to `html` file.
  * `jupyter nbconvert notebook.ipynb --to slides` - To create slideshow from`json` notebook file.
  * `jupyter nbconvert notebook.ipynb --to slides --post serve` - To create slideshow and see immediately.
+ * `jupyter nbconvert presentation.ipynb --to slides --template output-toggle.tpl --post serve` - To convert into slide with the given template.
  #### NOTE:
  * To install Jupyter Notebook use the following command - 
  `conda install jupyter notebook` or `pip install jupyter notebook`.
