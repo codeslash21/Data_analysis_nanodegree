@@ -66,5 +66,13 @@
 
 
 # Project resources:
+- **Project 1**
+  - [How To Handle Missing Data](https://towardsdatascience.com/how-to-handle-missing-data-8646b18db0d4)
+  - [Smooth Data With Moving Average](https://www.dallasfed.org/research/basics/moving.aspx)
+  - [Building Better and Cleaner line chart](https://www.exceltactics.com/build-better-cleaner-professional-line-chart/)
+  - [Tips to create beautiful Excel Charts](https://blog.hubspot.com/marketing/excel-graph-tricks-list)
+  - [Color Blind riendly Pattern to make your charts accessible](https://venngage.com/blog/color-blind-friendly-palette/)
+  - [Perform Correlation using Excel](https://www.excel-easy.com/examples/correlation.html)
+  
 * [Data set 2nd projects](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/July/5b57919a_data-set-options/data-set-options.pdf)
 
