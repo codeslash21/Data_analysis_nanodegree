@@ -84,5 +84,16 @@
   - [Pandas tips & tricks](https://www.dataschool.io/python-pandas-tips-and-tricks/)
   - [Pandas tips - Medium](https://towardsdatascience.com/10-python-pandas-tricks-to-make-data-analysis-more-enjoyable-cb8f55af8c30)
   
+- **Project 4**
+  - [Tidy data](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html)
+  - [Markdown Functionality of jupter notebook](https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html)
+  
+- **Project 5**
+  - [Dataset](https://video.udacity-data.com/topher/2019/April/5ca78b26_dataset-project-communicate-data-findings/dataset-project-communicate-data-findings.pdf)
+  - [Dataset - Drive link](https://docs.google.com/document/d/e/2PACX-1vQmkX4iOT6Rcrin42vslquX2_wQCjIa_hbwD0xmxrERPSOJYDtpNc_3wwK_p9_KpOsfA6QVyEHdxxq7/pub?embedded=True)
+  - [Markdown Systax](https://daringfireball.net/projects/markdown/syntax)
+  
+  
+  
   
 
