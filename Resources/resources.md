@@ -14,6 +14,7 @@
 * [CTR (Click Through Rate)](https://en.wikipedia.org/wiki/Click-through_rate)
 - [Excel: XML & ZIP: Explore Your Excel Workbooks File Structure](https://professor-excel.com/xml-zip-excel-file-structure/)
 - [Fully Pythonic Way to Read a File](https://stackoverflow.com/questions/8009882/how-to-read-a-large-file-line-by-line/8010133#8010133)
+- [Git commit style guide - udacity](https://udacity.github.io/git-styleguide/)
 - [glob](https://docs.python.org/3/library/glob.html)
 - [glob Programming](https://en.wikipedia.org/wiki/Glob_(programming))
 - [How to spot visualization lies](https://flowingdata.com/2017/02/09/how-to-spot-visualization-lies/)
@@ -74,5 +75,14 @@
   - [Color Blind riendly Pattern to make your charts accessible](https://venngage.com/blog/color-blind-friendly-palette/)
   - [Perform Correlation using Excel](https://www.excel-easy.com/examples/correlation.html)
   
-* [Data set 2nd projects](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/July/5b57919a_data-set-options/data-set-options.pdf)
+- **Project 2**
+  - [Course - Intro to Data Analysis](https://www.udacity.com/course/intro-to-data-analysis--ud170)
+  - [Data set 2nd projects](https://s3.amazonaws.com/video.udacity-data.com/topher/2018/July/5b57919a_data-set-options/data-set-options.pdf)
+  - [Cheat Sheet](https://github.com/codeslash21/Data_analyst_nanodegree/blob/master/Images/P2-cheat-sheet.png)
+  - [Numpy tricks - Kaggle](https://www.kaggle.com/paraspatidar/numpy-tricks-from-zero-to-hero)
+  - [Numpy tips - Meddium](https://towardsdatascience.com/hitchhiker-tips-on-effectively-using-python-numpy-arrays-66649b7bd5fb)
+  - [Pandas tips & tricks](https://www.dataschool.io/python-pandas-tips-and-tricks/)
+  - [Pandas tips - Medium](https://towardsdatascience.com/10-python-pandas-tricks-to-make-data-analysis-more-enjoyable-cb8f55af8c30)
+  
+  
 
