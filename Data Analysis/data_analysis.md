@@ -25,3 +25,11 @@ There are various optins for `read_csv()` like `sep=":"` or `header=none` or `he
 import seaborn as sns
 ```
 `sns.set_style()` To set style for the background.
+
+### Univariate VS Bivariate variables
+</br>
+<img src="../Images/univariate vs bivariate.jpg", width=500/>
+
+### Different Kinds of Chart
+</br>
+<img src="../Images/charts.jpeg", width=700/>
