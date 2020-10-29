@@ -32,12 +32,11 @@ The `conda` and `pip` both are the Python package managers. Package managers are
 - The available packages available from the Anaconda distribution in conda focus on data science, whereas pip is for general use. Conda installs precompiled packages. For example, the Anaconda distribution comes with Numpy, Scipy, and Scikit-learn compiled with the MKL library, speeding up various math operations.
 - Pip can install both Python and non-Python packages. Pip can install any package listed on the Python Package Index (PyPI).
 
-Some usefull commands are given below -
+#### Some usefull commands are given below -
 
 * `conda upgrade --all` -  running `conda upgrade conda` should not be necessary because --all
 includes the conda package itself, but some users have encountered errors without it.
-If you are seeing the following "conda command not found" and are using ZShell, you have to do the following:
-
+- If you are seeing the following "conda command not found" and are using ZShell, you have to do the following:
 Add `export PATH="/Users/username/anaconda/bin:$PATH"` to your .zsh_config file.
 * `conda install package_name` - To install particular package.
 * `conda install numpy scipy pandas` - To install multiple packages at the same time.
