@@ -6,9 +6,7 @@ Anaconda is a free and open-source distribution of the Python and R packages esp
 Anaconda is a program to manage (install, upgrade, or uninstall) packages and environments to use with Python. It's simple to install packages with Anaconda and create virtual environments to work on multiple projects conveniently.
 
 ### Package Manager: 
-Package managers are used to install libraries and other software on your computer. `pip` is the default package manager for Python libraries. Conda is similar to pip except that the available packages
-are focused around data science while pip is for general use. However, conda is not Python specific like pip is, it can also install non-Python packages.
-It is a package manager for any software stack. Conda installs precompiled packages. For example, the Anaconda distribution comes with Numpy, Scipy and Scikit-learn compiled with the MKL library, speeding up various math operations. 
+Package managers are used to install libraries and other software on your computer. `pip` is the default package manager for Python libraries. Conda is similar to pip except that the available packages are focused around data science while pip is for general use. However, conda is not Python specific like pip is, it can also install non-Python packages. It is a package manager for any software stack. Conda installs precompiled packages. For example, the Anaconda distribution comes with Numpy, Scipy and Scikit-learn compiled with the MKL library, speeding up various math operations. 
 
 ### Environment:
 Along with managing packages, Conda is also a virtual environment manager. It's similar to virtualenv and pyenv, other popular environment managers.
