@@ -1,19 +1,39 @@
 ### Conda:
-Conda is an open source package management system and environment management system that runs on Windows, macOS and Linux.
+Conda is an open source command-line utility for package management system and environment management system that runs on Windows, macOS and Linux.
 ### Anaconda:
-Anaconda is a free and open-source distribution of the Python and R programming languages for scientific computing, that aims to simplify package management and deployment.
+Anaconda is a free and open-source distribution of the Python and R packages especially for data science, that aims to simplify package management and deployment.
+
+Anaconda is a program to manage (install, upgrade, or uninstall) packages and environments to use with Python. It's simple to install packages with Anaconda and create virtual environments to work on multiple projects conveniently.
+
 ### Package Manager: 
 Package managers are used to install libraries and other software on your computer. `pip` is the default package manager for Python libraries. Conda is similar to pip except that the available packages
 are focused around data science while pip is for general use. However, conda is not Python specific like pip is, it can also install non-Python packages.
-It is a package manager for any software stack. Conda installs precompiled packages. For example, the Anaconda distribution comes with Numpy, Scipy and Scikit-learn compiled with the MKL library,
-speeding up various math operations. 
+It is a package manager for any software stack. Conda installs precompiled packages. For example, the Anaconda distribution comes with Numpy, Scipy and Scikit-learn compiled with the MKL library, speeding up various math operations. 
+
 ### Environment:
 Along with managing packages, Conda is also a virtual environment manager. It's similar to virtualenv and pyenv, other popular environment managers.
 Environments allow you to separate and isolate the packages you are using for different projects.
+
+- A Python environment comprises a particular version of each of the following:
+
+  - Python interpreter,
+  - Python-packages, and
+  - The utility scripts, such as pip.
+
 ### Dependecies:
 You can also export the list of packages in an environment to a file, then include that file with your code. This allows other people to easily load all the dependencies for your code.
 Pip has similar functionality with `pip freeze > requirements.txt`.
+
 ### Packages:
+A package is a bunch of modules, where each module consists of a set of classes and function definitions. After installing a particular package, you can `import` and use the functions defined in that package.
+
+#### Conda & Pip: 
+The `conda` and `pip` both are the Python package managers. Package managers are used to installing libraries and other software on your computer. pip is the default package manager for Python libraries, whereas conda focuses only on the packages that are available from the Anaconda distribution.
+
+**What to use?**
+- The available packages available from the Anaconda distribution in conda focus on data science, whereas pip is for general use. Conda installs precompiled packages. For example, the Anaconda distribution comes with Numpy, Scipy, and Scikit-learn compiled with the MKL library, speeding up various math operations.
+- Pip can install both Python and non-Python packages. Pip can install any package listed on the Python Package Index (PyPI).
+
 Some usefull commands are given below -
 
 * `conda upgrade --all` -  running `conda upgrade conda` should not be necessary because --all
@@ -36,6 +56,7 @@ Conda can be used to create environments to isolate your projects. Usefull coman
 * `conda create -n env_name list of packages` - To create an environment. Here `-n env_name` sets the name of your environment (`-n` for name) and `list of packages` is the list of packages you want installed in the environment. For example, to create an environment named `my_env` and install `numpy` in it, type `conda create -n my_env numpy`.
 * `conda create -n py3 python=3` - To create env with specific python version.
 * `conda activate my_env` - To enter a created environment.
+- `conda list` - To list installed packages under the current environment.
 * `conda env export > environment.yaml` - To create a [yaml](https://yaml.org/) file that includes all the packages in the environment, so that one can create same environment using the same packages.
 * `conda env create -f environment.yaml` - To create environment from `yaml` file.
 * `conda env list` - To list all available environment. There will be an asterisk next to the environment you're currently in. The default environment, the environment used when you aren't in one, is called `base`.
