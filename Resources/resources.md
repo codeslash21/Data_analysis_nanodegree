@@ -64,6 +64,10 @@
 - [What to Consider when Creating a Pie Chart](https://academy.datawrapper.de/article/127-what-to-consider-when-creating-a-pie-chart)
 
 
+## Datasets:
+- [Breast Cancer Wisconsin(Diagnostic) Dataset](https://www.kaggle.com/uciml/breast-cancer-wisconsin-data/version/2)
+
+
 ## Posts and Papers on Data Analysis:
 - [Ideologically Diverse News and Opinion - Facebook](https://research.fb.com/publications/exposure-to-ideologically-diverse-information-on-facebook/)
 - [Exposer To Diverse Information - Facebook](https://research.fb.com/exposure-to-diverse-information-on-facebook-2/)
