@@ -7,7 +7,9 @@ We organized the data analysis process into five steps:
 * **5. Communicate your results:** You often need to justify and convey meaning in the insights you’ve found. Or, if your end goal is to build a system, you usually need to share what you’ve built, explain how you reached design decisions, and report how well it performs.
 
 ### Package:
-A package is a collection of modules or python files that we can import into our code. Using a short alias can help to keep your code concise and clean. Example `import numpy as np`.
+A package is a collection of modules or python files that we can import into our code. Using a short alias can help to keep your code concise and clean. Example `import numpy as np`, here `np` is conventional alias for Numpy.
+
+ NumPy, Pandas, and Matplotlib are three core packages for data analysis. `Numpy` lets you perform mathematical functions on large multidimensional array and matrices efficiently. `Pandas` is like a more powerful and flexible version of Excel that handle large amount of data. And, `Matplotlib` is plotting library that can produce great visualization with often very few lines of code.
 
 ### CSV:
 csv stands for Comma Seperated Values. Its a text file. One can read `csv` file using `pandas` as following - 
