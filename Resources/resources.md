@@ -64,6 +64,12 @@
 - [What to Consider when Creating a Pie Chart](https://academy.datawrapper.de/article/127-what-to-consider-when-creating-a-pie-chart)
 
 
+## Posts and Papers on Data Analysis:
+- [Ideologically Diverse News and Opinion - Facebook](https://research.fb.com/publications/exposure-to-ideologically-diverse-information-on-facebook/)
+- [Exposer To Diverse Information - Facebook](https://research.fb.com/exposure-to-diverse-information-on-facebook-2/)
+- [Big Data Analysis helped increase Walmert sales turnover](https://www.dezyre.com/article/how-big-data-analysis-helped-increase-walmarts-sales-turnover/109)
+- [Data Analysis in Baseball](https://en.wikipedia.org/wiki/Bill_James)
+
 
 
 # Project resources:
