@@ -1,5 +1,10 @@
 # Numpy(Numerical Python):
+
 [NumPy](https://docs.scipy.org/doc/numpy/)
+[History of Scipy](https://scipy.github.io/old-wiki/pages/History_of_SciPy.html)
+[Guide to Numpy](http://csc.ucdavis.edu/~chaos/courses/nlp/Software/NumPyBook.pdf)
+
+`Numpy` stands for Neumerical Python and is designed for efficient scientific computation. Its built on top of the proggramming language C, which works at loweer level on our computer.
 
 ## Array:
 Its `1-D` data structure of numpy. Its almost similar to python `List`. Example:
