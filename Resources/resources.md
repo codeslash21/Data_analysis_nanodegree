@@ -62,6 +62,7 @@
 - [Unicode and Character sets](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/)
 
 - [What to Consider when Creating a Pie Chart](https://academy.datawrapper.de/article/127-what-to-consider-when-creating-a-pie-chart)
+- [Why C is so fast](https://stackoverflow.com/questions/418914/why-is-c-so-fast-and-why-arent-other-languages-as-fast-or-faster)
 
 
 ## Datasets:
