@@ -1,5 +1,5 @@
 # Pandas:
-[Pandas](https://pandas.pydata.org/pandas-docs/stable/reference/index.html#api)
+[Pandas](https://pandas.pydata.org/pandas-docs/stable/reference/index.html#api) is built on the top of Numpy.
 
 ## Pandas Seris:
 This is Pandas 1-D data structure like Numpy Array but with extra functionalities. The values are ordered.
