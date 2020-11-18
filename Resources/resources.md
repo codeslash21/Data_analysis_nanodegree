@@ -40,6 +40,8 @@
 * [nbconvert](https://nbconvert.readthedocs.io/en/latest/usage.html)
 * [Normal Quantile Plot](https://data.library.virginia.edu/understanding-q-q-plots/), [Kolmogorov-Smirnov test](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test)
 - [OCR (Optical Character Recognition)](https://www.abbyy.com/en-ca/finereader/what-is-ocr/)
+- [Pandas Merging](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html)
+- [Panddas & SQL Comparison](https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html)
 - [pandas vs. SQL](https://www.reddit.com/r/Python/comments/1tqjt4/why_do_you_use_pandas_instead_of_sql/)
 * [pdb](https://docs.python.org/3/library/pdb.html)
 * [Pandas Merge](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html)
@@ -49,7 +51,7 @@
 - [Relational DB and Flat File](https://www.cac.cornell.edu/education/Training/DataAnalysis/RelationalDatabases.pdf)
 
 - [Reveal.js](https://revealjs.com/#/)
-
+- [Seaborn example](https://seaborn.pydata.org/examples/index.html)
 - [SQLAlchemy](https://www.sqlalchemy.org/)
 * [Standard Deviation](https://video.udacity-data.com/topher/2019/November/5dc4adcb_intuition-intuitive-explanation-for-dividing-by-n-1-when-calculating-standard-deviation-cross-validated/intuition-intuitive-explanation-for-dividing-by-n-1-when-calculating-standard-deviation-cross-validated.htm)
 - [String VS Byte String](https://stackoverflow.com/questions/6224052/what-is-the-difference-between-a-string-and-a-byte-string)
