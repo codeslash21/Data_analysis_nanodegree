@@ -50,13 +50,16 @@ install just `scipy` (`conda install scipy`), Conda will also install `numpy` if
 
 ### Managing Environment:
 Conda can be used to create environments to isolate your projects. Usefull comand are given below -
-* `conda create -n env_name list of packages` - To create an environment. Here `-n env_name` sets the name of your environment (`-n` for name) and `list of packages` is the list of packages you want installed in the environment. For example, to create an environment named `my_env` and install `numpy` in it, type `conda create -n my_env numpy`.
+* `conda create -n env_name list_of_packages` - To create an environment. Here `-n env_name` sets the name of your environment (`-n` for name) and `list of packages` is the list of packages you want installed in the environment. For example, to create an environment named `my_env` and install `numpy` in it, type `conda create -n my_env numpy`.
 * `conda create -n py3 python=3` - To create env with specific python version.
 * `conda activate my_env` - To enter a created environment.
-- `conda list` - To list installed packages under the current environment.
+- `conda list -n env_name` To see installed packages in the enviroment if its not activated.
+- `conda list` To see installed packages in the environment which is activated.
+- `conda env export` - To list installed packages under the current environment.
 * `conda env export > environment.yaml` - To create a [yaml](https://yaml.org/) file that includes all the packages in the environment, so that one can create same environment using the same packages.
+- `pip freeze > requirements.txt` To create a text file contain all the packages installed in the current environment.
 * `conda env create -f environment.yaml` - To create environment from `yaml` file.
-* `conda env list` - To list all available environment. There will be an asterisk next to the environment you're currently in. The default environment, the environment used when you aren't in one, is called `base`.
+* `conda env list` OR `conda info --envs` - To list all available environment. There will be an asterisk next to the environment you're currently in. The default environment, the environment used when you aren't in one, is called `base`.
 * `conda env remove -n env_name` - To remove an environment.
 #### NOTE:
 *  To leave the environment, type `conda deactivate` (on OSX/Linux). On Windows, use `deactivate`.
