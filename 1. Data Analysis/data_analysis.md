@@ -35,3 +35,9 @@ import seaborn as sns
 ### Different Kinds of Chart
 </br>
 <img src="../Images/charts.jpeg", width=700/>
+
+
+## NOTE:
+
+- Pandas actually stores pointers to strings in dataframes and series, which is why `object` instead of `str` appears as the datatype.
+- **EDA and Data Visualization:** EDA, or Exploratory Data Analysis, is process of examining the data using statistical analysis and/or visualizations. The idea of a data exploration is that, before you begin, you note down some thoughts that you have about the data that you are going to explore - some immediate questions that pop into your mind (or in a work environment, you have some background knowledge of the data and have some goal in mind). Then you use these questions as a base for creating visualizations or using statistical analysis - to attempt to get some insight into those questions. Often, those initial results will lead to other questions. So that the data exploration becomes like a "stream of consciousness" of questions and answers. When data analysts refer to Data Visualization we specifically mean communicating the data through some visual technique (typically plots but it can also be some other form of graphics). So, Data Visualization is a component of Exploratory Data Analysis.
