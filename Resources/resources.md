@@ -29,7 +29,7 @@
 - [kernel density estimation (KDE)](https://en.wikipedia.org/wiki/Kernel_density_estimation)
 
 - [kdeplot](https://seaborn.pydata.org/generated/seaborn.kdeplot.html)
-
+- [Kolmogorov-Smirnov test](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test)
 * [LaTeX Tutorial](https://www.latex-tutorial.com/)
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [magic command](https://ipython.readthedocs.io/en/stable/interactive/magics.html)
@@ -43,7 +43,8 @@
 * [nbconvert](https://nbconvert.readthedocs.io/en/latest/usage.html)
 * [Normal Quantile Plot](https://data.library.virginia.edu/understanding-q-q-plots/), [Kolmogorov-Smirnov test](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test)
 - [OCR (Optical Character Recognition)](https://www.abbyy.com/en-ca/finereader/what-is-ocr/)
-- [Pandas Data Visualisation]](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
+- [Outliers](http://d-scholarship.pitt.edu/7948/1/Seo.pdf)
+- [Pandas Data Visualisation](https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html)
 - [Pandas Merging](https://pandas.pydata.org/pandas-docs/stable/user_guide/merging.html)
 - [Panddas & SQL Comparison](https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html)
 - [pandas vs. SQL](https://www.reddit.com/r/Python/comments/1tqjt4/why_do_you_use_pandas_instead_of_sql/)
