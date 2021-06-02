@@ -2,7 +2,7 @@
 
 
 - [5 Tips on designing colorblind-friendly visualization](https://www.tableau.com/about/blog/2016/4/examining-data-viz-rules-dont-use-red-green-together-53463)
-
+- [5 ways to detect outliers](https://towardsdatascience.com/5-ways-to-detect-outliers-that-every-data-scientist-should-know-python-code-70a54335a623)
 - [An Illustrated Tour of the Pie Chart Study Results ](https://eagereyes.org/blog/2016/an-illustrated-tour-of-the-pie-chart-study-results)
 
 - [API Data Exchange: XML vs. JSON](https://www.tibco.com/blog/2014/01/23/api-data-exchange-xml-vs-json/)
