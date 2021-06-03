@@ -4,7 +4,10 @@ Probability and Statistics are opposite fields but they are related to each othe
 * In statistics we analyse the data from past events to infer those models and causes could be the reasons of that event.
 * When finding the probabilities using a continuous distribution, the probability of obtaining an exact value is zero.
 
+## Binomial Distribution:
+We can use binomial distribution where events have only two outcomes like head or tail, true or false, yes or no etc.
 
+![Binomial](../Images/binomial.png)
 
 ### NOTE
 - The probability of any event must be between 0 and 1, inclusive.
