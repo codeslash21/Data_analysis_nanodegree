@@ -1,4 +1,4 @@
-## Some Important Resources
+## Important Resources
 
 
 - [5 Tips on designing colorblind-friendly visualization](https://www.tableau.com/about/blog/2016/4/examining-data-viz-rules-dont-use-red-green-together-53463)
